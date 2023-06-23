@@ -1,0 +1,540 @@
+/* universal css */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    width: 100%;
+
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    font-family:"Times New Roman", Times, serif;
+}
+
+
+/* Header top part */
+.page-head{
+    position: fixed;
+    width: 100%;
+}
+.Header-top {
+    height: 50px;
+    display: flex;
+    background-color: black;
+}
+
+.Header-top-one {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    background-color: transparent;
+    align-items: center;
+}
+
+.Header-top-two {
+    flex: 1;
+    background-color: transparent;
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+.flag-icon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.flag-icon>img {
+    max-width: 50px;
+    max-height: 20px;
+    margin-left: 10px;
+}
+
+#country {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: none;
+}
+
+html,
+body,
+Header-top {
+    width: 100%;
+}
+
+.lists {
+    display: flex;
+    width: 73%;
+    font-size: 13px;
+    width: 70%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.lists>li>a,
+.contactNo {
+    color: white;
+
+}
+
+#country {
+    font-size: 10px;
+}
+
+.contactNo {
+    font-size: 12px;
+    margin-left: 45px;
+}
+
+/*  header bottem part */
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+}
+
+.Ait-icon {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Ait-icon>img {
+    max-width: 200px;
+    height: auto;
+    padding-left: auto;
+
+    padding-left: 30px;
+}
+
+.nav-first {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-first>ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-first>ul>li {
+    display: flex;
+    padding-right: 40px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-second {
+    flex: 2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#common-button {
+    background: rgb(10, 153, 236);
+    height: 35px;
+    border-radius: 20px;
+    width: 85px;
+    color: white;
+    border: none;
+    margin-top: 13px;
+}
+
+
+#search-bar {
+    border: none;
+    height: 50%;
+    border-radius: 2rem;
+    border: 1px solid lightgray;
+    width: 13rem;
+}
+
+#search-bar>input {
+    border: 1px solid lightgray;
+    border-radius: 23px;
+    padding: 10px;
+    height: 100%;
+    border: none;
+    position: relative;
+    left: 17px;
+    width: 10rem;
+}
+
+#search-bar>button {
+    
+    right: 50px;
+    border: none;
+    position: relative;
+    right: 5px;
+    background: white;
+}
+
+.nav-second>div>i {
+    border: 1px solid lightgray;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.banner-area-right>h3 {
+    font-size: 19px;
+    font-style: italic;
+    color: blue;
+
+}
+
+.banner-area-right>h1 {
+    font-size: 4em;
+    font-weight: revert;
+}
+
+.banner-area-right>p {
+    font-style: italic;
+    padding: 10px;
+
+}
+
+.banner-area-right {
+    margin-top: 15em;
+    margin-left: 2em;
+    top: 13em;
+    left: 2em;
+}
+.main-div {
+    display: grid;
+
+    grid-template-columns: auto auto;
+}
+
+.banner-area {
+    display: flex;
+
+
+}
+
+.banner-area {
+    background-image: url('./img/hero/h1_hero.jpg');
+    width: 100%;
+}
+
+/* category */
+.category-two {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 50px;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Source Serif Pro', serif;
+    margin: 80px 20px 0px 20px;
+}
+
+.category>h2 {
+    font-size: 2em;
+}
+
+.category-item {
+    display: flex;
+    height: 200px;
+    position: relative;
+}
+
+.category-item>img {
+    width: 100%;
+}
+
+.category-item-detail {
+       position: absolute;
+    left: 14em;
+    top: 4em;
+}
+
+.itemOneDetail p:nth-child(2),
+.itemThreeDetail p:nth-child(2) {
+    background-color: gold;
+    border-radius: 4em;
+    padding: 5px;
+    font-size: 10px;
+}
+/* Latest-Products */
+.latest-products-header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-bottem:1rem;
+
+}
+.products{
+    padding: 10em;
+}
+.latest-products-header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.latest-products-header li:nth-child(1){
+    color: red;
+}
+.commonProp{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.commonProp img{
+    width: 22vw;
+}
+hr{
+    width: 93%;
+    margin-left: 2em;
+}
+.latest-products-header{
+    position: relative;
+    left: 3rem;
+}
+.latest-products-header>div{
+    position: relative;
+    right: 5rem;
+    margin-top: 1rem;
+}
+.latest-products-one{
+    margin-top: 4rem;
+}
+.latest-products-header>h2{
+    font-size: 3rem;
+}
+
+/* cards */
+.card{
+    
+    height: 36rem;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    background-image: url('./img/categori/card.png');
+    
+}
+.details h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.details p{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.card-section{
+display: flex;
+justify-content: center;
+
+}
+.card-man{
+    position: relative;
+    bottom: 8rem;
+    left: 9rem;
+}
+.jeansShirt{
+    position: relative;
+    top: 23rem;
+    height: fit-content;
+}
+.outer-details{
+    position: relative;
+    top: 9rem;
+    left: 6rem;
+}
+
+/* best-collection */
+#outer-bestCollection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 53rem;   
+}
+.inner-container{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+}
+.about div :nth-child(1){
+font-size: 43px;
+}
+.about div :nth-child(2){
+font-size: 18px;
+position: relative;
+    top: 12px;
+}
+.about-container div:nth-child(2){
+    position: relative;
+    top: 362px;
+}
+.about button{
+    position: relative;
+    top: 85px;
+}
+.about{
+   position: relative;
+    top: 9em;
+}
+#choice{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#choice div:nth-child(1){
+    display: flex;
+    align-items: end;
+}
+.jacket-choice{
+    position: relative;
+    top: 19rem;
+    left: 4rem;
+}
+/* latest-offer */
+
+.inner-offers{
+    width: 90%;
+    
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/hero/h1_hero.jpg');
+}
+#outer-offers{
+    display: flex;
+    justify-content: center;
+    
+    height: 43rem;
+    align-items: center;
+}
+.sub-innerOffer{
+    width: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right-offer{
+    height: 45%;
+    border-radius: 30px;
+    background-color: white;
+    width: 19rem;
+    position: relative;
+    top:2rem;
+}
+.right-offer :nth-child(1){
+    height: 100%;
+    position: relative;
+    left: 25px;
+    border: none;
+}
+.right-offer :nth-child(2){
+    height: 100%;
+    position: relative;
+    left: 21px;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    border: none;
+    background: #4285F4;
+    width: 120px;
+}
+.left-offer>p{
+    position: relative;
+    top: 2rem;
+}
+.left-offer>h2{
+    font-size: 40px;
+}
+/* paymentShiping */ 
+#paymentAndShipping-container{
+    display: flex;
+    justify-content: center;
+}
+.paymentShipping{
+display:grid;
+grid-template-columns: auto auto auto;
+width: 75%;
+justify-content: space-between;
+}
+.commonStyle>h2{
+    line-height: 50px;
+    font-size: 19px;
+}
+.commonStyle{
+    line-height: 25px;
+}
+
+/* gallery-section */
+#gallery-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+}
+.gallerySectionSub{
+    width: 96%;
+    background: pink;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.gallerySectionSub img{
+    width: 100%;
+}
+
+/* footer section */
+#pageFooter{
+    display: flex;
+    justify-content: center;
+}
+.footer-section{
+    line-height: 2rem;
+    width: 80%;
+}
+.note{
+    width: 90%;
+}
+.footerSection2 {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    height: 10rem;
+}
+
+.footerSection1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
